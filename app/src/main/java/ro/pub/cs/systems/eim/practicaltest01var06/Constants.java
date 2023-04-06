@@ -4,8 +4,10 @@ public class Constants {
 
     public static final String LEFT_TEXT = "leftText";
     public static final String RIGHT_TEXT = "rightText";
+    public static final String Gained="";
 
     public static final int REQUEST_CODE = 1;
+    public static final String SCOR="";
     public static final String PROCESSING_THREAD_TAG =  "[Processing Thread]";
     public static final String BROADCAST_RECEIVER_EXTRA = "ro.pub.cs.systems.eim.practicaltest01.broadcastreceiverextra";
     public static String[] actionTypes = {

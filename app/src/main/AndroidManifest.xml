@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Colocviu1_71">
-        <activity
-            android:name="ro.pub.cs.systems.eim.practicaltest01var06.PracticalTest01Var06SecondaryActivity"
-            android:exported="false" />
+        <activity android:name=".PracticalTest01Var06SecondaryActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="ro.pub.cs.systems.eim.practicaltest01var06.intent.action.PracticalTest01Var06SecondaryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="ro.pub.cs.systems.eim.practicaltest01var06.PracticalTest01Var06MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
